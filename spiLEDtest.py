@@ -7,7 +7,7 @@ import adafruit_dotstar as dotstar
 # dots = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.2)
  
 # Using a DotStar Digital LED Strip with 30 LEDs connected to hardware SPI
-dots = dotstar.DotStar(board.SCK, board.MOSI, 64*2, brightness=0.01)
+dots = dotstar.DotStar(board.SCK, board.MOSI, 64, brightness=0.1)
  
 # Using a DotStar Digital LED Strip with 30 LEDs connected to digital pins
 # dots = dotstar.DotStar(board.D6, board.D5, 30, brightness=0.2)
